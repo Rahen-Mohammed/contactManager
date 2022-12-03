@@ -166,5 +166,3 @@ logoutBtn.addEventListener("click", () => {
     localStorage.removeItem("online");
     window.location.href = "../../index.html";
 });
-
-console.log(JSON.parse(localStorage.getItem("contacts")));
