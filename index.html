@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="./asset/css/index.css" />
+        <title>Sign in</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-dark">
+                <a class="navbar-brand" href="#">
+                    <img
+                        src="data:image/png;base64,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"
+                        alt=""
+                        width="30"
+                        height="30"
+                        class="d-inline-block align-top rounded-circle"
+                    />
+                    Contact Manager</a
+                >
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse nav justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="signup.html">Signup</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="login">
+                <h2 class="mb-3">Login</h2>
+                <form>
+                    <div class="form-floating mb-3">
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="floatingInput"
+                            placeholder="name@example.com"
+                        />
+                        <label for="floatingInput">Email or Username</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input
+                            type="password"
+                            class="form-control"
+                            id="floatingPassword"
+                            placeholder="Password"
+                        />
+                        <label for="floatingPassword">Password</label>
+                    </div>
+                    <button type="submit" class="btn btn-info w-100">Login</button>
+                </form>
+            </section>
+        </main>
+        <script src="./asset/javascript/index.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

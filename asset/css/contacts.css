@@ -1,0 +1,32 @@
+nav {
+    padding-left: 10rem !important;
+    padding-right: 10rem !important;
+}
+
+main {
+    background-image: linear-gradient(90deg, royalblue, blueviolet);
+    min-height: calc(100vh - 56px);
+    padding: 1rem 10rem;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+tbody {
+    border-style: hidden;
+}
+
+h2 {
+    color: white;
+}
+
+.nav-item.dropdown:hover .dropdown-menu.dropdown-menu-dark {
+    display: block !important;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
